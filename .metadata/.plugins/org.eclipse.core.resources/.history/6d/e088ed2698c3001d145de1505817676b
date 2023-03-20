@@ -1,0 +1,34 @@
+package br.com.fiap.modelo;
+
+public class Motor {
+	
+	private String	marcaMotor;
+	private double	potencia;
+	private int		valvulas;
+	
+	
+	public void setMarcaMotor(String marcaMotor) {
+		this.marcaMotor = marcaMotor;
+	}
+	
+	public void setPotencia(double potencia) {
+		this.potencia = potencia;
+	}
+	
+	public void setValvulas(int valvulas) {
+		this.valvulas = valvulas;
+	}
+	
+	public String getMarcaMotor() {
+		return marcaMotor;
+	}
+	
+	public double getPotencia() {
+		return potencia;
+	}
+	
+	public int getValvulas() {
+		return valvulas;
+	}
+	
+}

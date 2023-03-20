@@ -1,0 +1,15 @@
+package br.com.fiap.main;
+
+import br.com.fiap.modulo.Produto;
+
+public class MainProduto {
+
+	public static void main(String[] args) {
+		
+		Produto objProduto = new Produto();
+		
+		objProduto.setMarca("");
+
+	}
+
+}

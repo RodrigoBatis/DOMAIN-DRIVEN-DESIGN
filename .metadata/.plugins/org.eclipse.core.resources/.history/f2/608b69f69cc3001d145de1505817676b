@@ -1,0 +1,17 @@
+package br.com.fiap.main;
+
+import br.com.fiap.modelo.Carro;
+import br.com.fiap.modelo.Motor;
+
+public class main {
+
+	public static void main(String[] args) {
+		
+		Carro objCarro = new Carro();
+		Motor objMotor = new Motor();
+		
+		
+
+	}
+
+}

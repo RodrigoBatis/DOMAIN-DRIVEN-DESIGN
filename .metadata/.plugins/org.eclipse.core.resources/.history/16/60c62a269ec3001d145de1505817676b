@@ -1,0 +1,37 @@
+package br.com.fiap.main;
+
+import br.com.fiap.modelo.Carro;
+import br.com.fiap.modelo.Motor;
+
+public class main {
+
+	public static void main(String[] args) {
+		
+		Carro objCarro = new Carro();
+		Motor objMotor = new Motor();
+		
+		objCarro.setMarca("FIAT");
+		objCarro.setModelo("Uno");
+		objCarro.setAno(2015);
+		objCarro.setValor(27.555);
+		objCarro.setMotor(objMotor);
+		
+		objMotor.setMarcaMotor("Generak Motors");
+		objMotor.setPotencia(1.0);
+		objMotor.setTipoCambio("Manual");
+		
+		
+		System.out.println("---------------------------------");
+		System.out.println("Marca: " + objCarro.getMarca() +
+				"\nModelo: " + objCarro.getModelo() +
+				"\nAno: " + objCarro.getAno() +
+				"\nValor:" + objCarro.getValor() +
+				"\n----- Informações sobre o motor ----- " +
+				"\n- Marca do motor: " + objCarro.getMotor().getMarcaMotor() +
+				"\n- Potência do motor: " + objCarro.getMotor().getPotencia() +
+				"\n- Tipo do cambio: " + objCarro.getMotor().getTipoCambio());
+		System.out.println("---------------------------------");
+
+	}
+
+}
