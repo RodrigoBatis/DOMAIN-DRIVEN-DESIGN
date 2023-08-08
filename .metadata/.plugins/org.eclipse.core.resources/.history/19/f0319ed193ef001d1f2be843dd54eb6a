@@ -1,0 +1,12 @@
+package br.com.fiap.beans;
+
+public class Pessoa {
+
+	private String nome, email;
+	private int idade;
+	private double renda;
+	private Endereco endereco;
+	
+	
+	
+}

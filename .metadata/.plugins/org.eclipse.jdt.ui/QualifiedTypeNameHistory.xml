@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="br.com.fiap.beans.Telefone"/>
+    <fullyQualifiedTypeName name="br.com.fiap.beans.Cliente"/>
+    <fullyQualifiedTypeName name="br.com.fiap.beans.ParteCarro"/>
+    <fullyQualifiedTypeName name="br.com.fiap.main.App"/>
+    <fullyQualifiedTypeName name="br.com.fiap.beans.Carro"/>
+    <fullyQualifiedTypeName name="br.com.fiap.beans.Oficina"/>
+    <fullyQualifiedTypeName name="br.com.fiap.beans.Empresa"/>
+    <fullyQualifiedTypeName name="br.com.fiap.beans.Produto"/>
+    <fullyQualifiedTypeName name="br.com.fiap.beans.Colaborador"/>
+    <fullyQualifiedTypeName name="br.com.fiap.beans.Mamifero"/>
+    <fullyQualifiedTypeName name="br.com.fiap.beans.Humano"/>
+    <fullyQualifiedTypeName name="br.com.fiap.beans.Boi"/>
+    <fullyQualifiedTypeName name="br.com.fiap.beans.PessoaJuridica"/>
+    <fullyQualifiedTypeName name="br.com.fiap.beans.PessoaFisica"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.lang.Double"/>
+    <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
+    <fullyQualifiedTypeName name="br.com.fiap.beans.Endereco"/>
+</qualifiedTypeNameHistroy>
