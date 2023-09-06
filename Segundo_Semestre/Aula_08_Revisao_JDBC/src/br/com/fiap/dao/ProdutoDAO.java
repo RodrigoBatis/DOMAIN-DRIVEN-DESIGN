@@ -21,12 +21,20 @@ public class ProdutoDAO {
 	
 	//Insert
 	
-	public String inserir (Produto produto) {
+public String inserir (Produto produto) throws SQLException {
 		
 		PreparedStatement stmt = minhaConexao.prepareStatement
-				("INSERT INTO TBL_PRODUTO ");
+				(" insert into T_FIAP_PRODUTO values (?,?,?,?,?)");
+		stmt.setInt(1, produto.getQuantidade());
+		stmt.setString(2, produto.getTipo());
+		stmt.setString(3, produto.getMarca());
+		stmt.setDouble(4, produto.getValorVenda());
+		stmt.setDouble(5, produto.getValorCompra());
+		stmt.execute();
+		stmt.close();
 		
-		return "Cadastrado com Sucesso!!!";
+		return "Cadastrado com Sucesso";
+		
 	}
 	
 }
